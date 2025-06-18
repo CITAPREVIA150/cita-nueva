@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gestión de citas de Extranjería y Notariales</title>
+  <style>
+    body {
+      background-color: #FFE5B4;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #FFA500;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+      text-align: center;
+    }
+    .logo {
+      position: absolute;
+      width: 40px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .logo.left {
+      left: 10px;
+    }
+    .logo.right {
+      right: 10px;
+    }
+    section {
+      padding: 2rem;
+      text-align: center;
+    }
+    h2 {
+      color: #FFA500;
+    }
+    .flags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      justify-content: center;
+      margin: 1rem 0 2rem;
+    }
+    .flags img {
+      width: 28px;
+      height: 20px;
+    }
+    form {
+      margin-top: 1.5rem;
+    }
+    input[type="text"] {
+      padding: 0.4rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    input[type="submit"] {
+      background-color: #FFA500;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Escudo_Notarios_España.png" class="logo left" alt="Logo Notaría">
+    <h1>Gestión de citas de Extranjería y Notariales</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Escudo_Notarios_España.png" class="logo right" alt="Logo Notaría">
+  </header>
+  <section>
+    <div class="flags">
+      <img src="https://flagcdn.com/w40/es.png" alt="España" />
+      <img src="https://flagcdn.com/w40/mx.png" alt="México" />
+      <img src="https://flagcdn.com/w40/ar.png" alt="Argentina" />
+      <img src="https://flagcdn.com/w40/co.png" alt="Colombia" />
+      <img src="https://flagcdn.com/w40/ve.png" alt="Venezuela" />
+      <img src="https://flagcdn.com/w40/do.png" alt="Rep. Dominicana" />
+      <img src="https://flagcdn.com/w40/pe.png" alt="Perú" />
+      <img src="https://flagcdn.com/w40/bo.png" alt="Bolivia" />
+      <img src="https://flagcdn.com/w40/ec.png" alt="Ecuador" />
+      <img src="https://flagcdn.com/w40/gt.png" alt="Guatemala" />
+      <img src="https://flagcdn.com/w40/cu.png" alt="Cuba" />
+      <img src="https://flagcdn.com/w40/uy.png" alt="Uruguay" />
+      <img src="https://flagcdn.com/w40/py.png" alt="Paraguay" />
+      <img src="https://flagcdn.com/w40/cl.png" alt="Chile" />
+      <img src="https://flagcdn.com/w40/br.png" alt="Brasil" />
+      <img src="https://flagcdn.com/w40/hn.png" alt="Honduras" />
+      <img src="https://flagcdn.com/w40/ni.png" alt="Nicaragua" />
+      <img src="https://flagcdn.com/w40/sv.png" alt="El Salvador" />
+      <img src="https://flagcdn.com/w40/us.png" alt="Estados Unidos" />
+      <img src="https://flagcdn.com/w40/fr.png" alt="Francia" />
+      <img src="https://flagcdn.com/w40/it.png" alt="Italia" />
+      <img src="https://flagcdn.com/w40/de.png" alt="Alemania" />
+      <img src="https://flagcdn.com/w40/pt.png" alt="Portugal" />
+      <img src="https://flagcdn.com/w40/ua.png" alt="Ucrania" />
+      <img src="https://flagcdn.com/w40/ma.png" alt="Marruecos" />
+    </div>
+    <h2>Bienvenido</h2>
+    <p>Ofrecemos servicios para conseguir citas para trámites de extranjería en toda España, así como gestiones notariales.</p>
+    <form action="#" method="POST">
+      <label for="nombre">Tu nombre:</label>
+      <input type="text" id="nombre" name="nombre" required />
+      <input type="submit" value="Enviar solicitud" />
+    </form>
+  </section>
+</body>
+</html>
